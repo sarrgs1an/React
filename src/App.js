@@ -101,7 +101,7 @@ return (
       {
       users.map(item=><div key={item.id}>
          <p>{item.id}</p>
-         <img src = {item.avatar_url}/>
+         {/* <img src = {item.avatar_url}/> */}
       </div>)
 
 }
